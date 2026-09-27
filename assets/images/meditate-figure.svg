@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 320">
+<defs>
+<radialGradient id="aura" cx="50%" cy="38%" r="60%">
+<stop offset="0%" stop-color="#F3D98B" stop-opacity=".9"/>
+<stop offset="55%" stop-color="#E7A9C4" stop-opacity=".35"/>
+<stop offset="100%" stop-color="#E7A9C4" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#E8956B"/>
+<stop offset="1" stop-color="#C96B47"/>
+</linearGradient>
+<linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#C2185B"/>
+<stop offset="1" stop-color="#8E1550"/>
+</linearGradient>
+<linearGradient id="cloth2" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#D9A94E"/>
+<stop offset="1" stop-color="#B9822E"/>
+</linearGradient>
+<linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3A1226"/>
+<stop offset="1" stop-color="#20060F"/>
+</linearGradient>
+</defs>
+
+<circle cx="150" cy="150" r="150" fill="url(#aura)"/>
+
+<!-- chakra dots along spine -->
+<g fill="#F3D98B">
+<circle cx="150" cy="88" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="108" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin=".3s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="128" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin=".6s" repeatCount="indefinite"/></circle>
+<circle cx="150" cy="150" r="5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin=".9s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- crossed legs (lotus pose) -->
+<path d="M60 265 Q90 220 140 232 Q120 250 118 268 Q90 278 60 265Z" fill="url(#cloth2)"/>
+<path d="M240 265 Q210 220 160 232 Q180 250 182 268 Q210 278 240 265Z" fill="url(#cloth2)"/>
+<ellipse cx="150" cy="258" rx="70" ry="30" fill="url(#cloth)"/>
+
+<!-- torso -->
+<path d="M108 145 Q100 210 118 250 Q150 262 182 250 Q200 210 192 145 Q150 128 108 145Z" fill="url(#cloth)"/>
+<path d="M120 150 L150 250 L180 150 Z" fill="#00000012"/>
+
+<!-- shawl drape -->
+<path d="M108 150 Q80 190 96 232 Q108 236 118 228 Q104 190 128 156Z" fill="url(#cloth2)" opacity=".92"/>
+
+<!-- arms resting on knees -->
+<path d="M96 232 Q70 235 62 258 Q78 268 96 262 Q100 245 108 235Z" fill="url(#skin)"/>
+<path d="M204 232 Q230 235 238 258 Q222 268 204 262 Q200 245 192 235Z" fill="url(#skin)"/>
+<!-- mudra hands -->
+<circle cx="78" cy="260" r="9" fill="url(#skin)"/>
+<circle cx="222" cy="260" r="9" fill="url(#skin)"/>
+<circle cx="78" cy="260" r="3" fill="#8E4A2E"/>
+<circle cx="222" cy="260" r="3" fill="#8E4A2E"/>
+
+<!-- neck + head -->
+<rect x="140" y="108" width="20" height="22" rx="8" fill="url(#skin)"/>
+<circle cx="150" cy="88" r="34" fill="url(#skin)"/>
+
+<!-- hair bun -->
+<path d="M118 78 Q150 34 182 78 Q182 60 150 52 Q118 60 118 78Z" fill="url(#hair)"/>
+<circle cx="150" cy="48" r="12" fill="url(#hair)"/>
+<path d="M116 82 Q150 100 184 82 Q184 70 150 74 Q116 70 116 82Z" fill="url(#hair)"/>
+
+<!-- bindi + closed eyes (serene) -->
+<circle cx="150" cy="82" r="2.4" fill="#C2185B"/>
+<path d="M136 92 q6 4 12 0" stroke="#5C2B18" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+<path d="M152 92 q6 4 12 0" stroke="#5C2B18" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+<!-- gold jewelry accents -->
+<path d="M118 145 Q150 158 182 145" stroke="#F3D98B" stroke-width="3" fill="none" opacity=".85"/>
+<circle cx="150" cy="150" r="3.2" fill="#F3D98B"/>
+</svg>

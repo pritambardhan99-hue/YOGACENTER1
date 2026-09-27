@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#D9A94E"/>
+<stop offset="1" stop-color="#C2185B"/>
+</linearGradient>
+</defs>
+<circle cx="50" cy="50" r="48" fill="none" stroke="url(#lg1)" stroke-width="2"/>
+<circle cx="50" cy="50" r="38" fill="none" stroke="url(#lg1)" stroke-width="1.2" opacity=".7"/>
+<g fill="url(#lg1)">
+<g id="petalset">
+<ellipse cx="50" cy="14" rx="6" ry="14"/>
+</g>
+<use href="#petalset" transform="rotate(30 50 50)"/>
+<use href="#petalset" transform="rotate(60 50 50)"/>
+<use href="#petalset" transform="rotate(90 50 50)"/>
+<use href="#petalset" transform="rotate(120 50 50)"/>
+<use href="#petalset" transform="rotate(150 50 50)"/>
+<use href="#petalset" transform="rotate(180 50 50)"/>
+<use href="#petalset" transform="rotate(210 50 50)"/>
+<use href="#petalset" transform="rotate(240 50 50)"/>
+<use href="#petalset" transform="rotate(270 50 50)"/>
+<use href="#petalset" transform="rotate(300 50 50)"/>
+<use href="#petalset" transform="rotate(330 50 50)"/>
+</g>
+<circle cx="50" cy="50" r="10" fill="#FFF6FA" stroke="url(#lg1)" stroke-width="2"/>
+<circle cx="50" cy="50" r="4" fill="url(#lg1)"/>
+</svg>

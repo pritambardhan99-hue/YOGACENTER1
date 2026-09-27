@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<defs>
+<linearGradient id="mg1" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#D9A94E"/>
+<stop offset="1" stop-color="#C2185B"/>
+</linearGradient>
+</defs>
+<g fill="none" stroke="url(#mg1)" stroke-width="1">
+<circle cx="200" cy="200" r="190" opacity=".5"/>
+<circle cx="200" cy="200" r="160" opacity=".6"/>
+<circle cx="200" cy="200" r="130" opacity=".7" stroke-dasharray="4 6"/>
+</g>
+<g fill="url(#mg1)" opacity=".85">
+<g id="mp">
+<ellipse cx="200" cy="30" rx="10" ry="26"/>
+<ellipse cx="200" cy="30" rx="4" ry="26" fill="#FFF6FA" opacity=".5"/>
+</g>
+<use href="#mp" transform="rotate(22.5 200 200)"/>
+<use href="#mp" transform="rotate(45 200 200)"/>
+<use href="#mp" transform="rotate(67.5 200 200)"/>
+<use href="#mp" transform="rotate(90 200 200)"/>
+<use href="#mp" transform="rotate(112.5 200 200)"/>
+<use href="#mp" transform="rotate(135 200 200)"/>
+<use href="#mp" transform="rotate(157.5 200 200)"/>
+<use href="#mp" transform="rotate(180 200 200)"/>
+<use href="#mp" transform="rotate(202.5 200 200)"/>
+<use href="#mp" transform="rotate(225 200 200)"/>
+<use href="#mp" transform="rotate(247.5 200 200)"/>
+<use href="#mp" transform="rotate(270 200 200)"/>
+<use href="#mp" transform="rotate(292.5 200 200)"/>
+<use href="#mp" transform="rotate(315 200 200)"/>
+<use href="#mp" transform="rotate(337.5 200 200)"/>
+</g>
+<circle cx="200" cy="200" r="60" fill="none" stroke="url(#mg1)" stroke-width="1.5" opacity=".6"/>
+</svg>

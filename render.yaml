@@ -1,0 +1,13 @@
+# Render.com configuration for Chhanda Wellbeing Wish Center
+# This file lets Render auto-configure the service when you connect your
+# GitHub repo, instead of you having to click through manual settings.
+
+services:
+  - type: web
+    name: chanda-wellbeing-wish-center
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8080
